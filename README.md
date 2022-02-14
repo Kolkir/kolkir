@@ -3,22 +3,18 @@
 My name is Kirill Kolodiaznyi and I'm a software developer from Ukraine, living in Kharkiv. You can find me on [Twitter][1],  or on [LinkedIn][3].
 
 ## 🔬 Research & Intersest
-My current sphere of interest includes mostly Machine Learning, Computer vision and roboics projects.
-The recent projects I'm working on are:
-- [Porting LoFTR feature matching model to low-end devices](https://github.com/Kolkir/Coarse_LoFTR_TRT)
-- [Implementation of robotic platform based on NVIDIA Jetson Nano 2Gb device with monocular SLAM navigation](https://github.com/Kolkir/rosbot)
+The research I’m working on now is the [implementation](https://github.com/Kolkir/rosbot) of a robotic platform based on the NVIDIA Jetson Nano 2Gb device with monocular SLAM navigation. The main aim of this work is to improve feature matching algorithms used for camera positioning in a SLAM pipeline. The recent experiments are about using deep learning for SLAM, especially using the [Local Feature Matching with Transformers](https://github.com/Kolkir/Coarse_LoFTR_TRT) for camera positioning.
+
+Another topic of my interest is multi-threaded algorithms and using them for performance improvements in projects I’m working on. The result of this work is the [library](https://github.com/Kolkir/cpptask) that represents higher-level, task-based parallelism. It’s based on the idea of the Intel TBB work-stealing threads management approach.
+
+Also, I’m interested in learning and applying the C++ language for solving  Machine Learning tasks. I wrote several [articles](https://github.com/Kolkir/mlcpp) and a book about the application of C++ to ML.  Additionally, I made C++ implementations of popular object detection methods like Faster R-CNN and Mask R-CNN.
 
 
-## &#x270d; Writing
-Apart of coding I also write articles and wrote a book.
-- [Polynomial regression with XTensor library tutorial](https://github.com/Kolkir/mlcpp/tree/master/polynomial_regression)
-- [Polynomial regression with MShadow library tutorial](https://github.com/Kolkir/mlcpp/tree/master/polynomial_regression_gpu)
-- [Polynomial regression with Eigen library tutorial](https://github.com/Kolkir/mlcpp/tree/master/polynomial_regression_eigen)
-- [Classification with Shark-ML machine learning library](https://github.com/Kolkir/mlcpp/tree/master/classification_shark)
-- [Classification with Shogun machine learning library](https://github.com/Kolkir/mlcpp/tree/master/classification_shogun)
-- [Classification with DLib machine learning library](https://github.com/Kolkir/mlcpp/tree/master/classification_dlib)
-
-<img src="https://images-na.ssl-images-amazon.com/images/I/511t2x++mGL._SX404_BO1,204,203,200_.jpg" alt="drawing" width="50"/> [Hands-On Machine Learning with C++: Build, train, and deploy end-to-end machine learning and deep learning pipelines](https://www.amazon.com/dp/1789955335)
+## &#x270d; Publications
+* <img src="https://images-na.ssl-images-amazon.com/images/I/511t2x++mGL._SX404_BO1,204,203,200_.jpg" alt="drawing" width="50"/> [Hands-On Machine Learning with C++: Build, train, and deploy end-to-end machine learning and deep learning pipelines](https://www.amazon.com/dp/1789955335)
+  
+* [Local Feature Matching with Transformers for low-end devices](https://arxiv.org/abs/2202.00770)
+  Feb 1, 2022, arXiv:2202.00770 [cs.CV]
 
 ## 🔧 Technologies & Tools
 ![](https://img.shields.io/badge/OS-Linux-informational?style=flat&logo=linux&logoColor=white&color=2bbc8a)
