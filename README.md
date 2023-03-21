@@ -1,6 +1,6 @@
 ### Hi there 👋
 
-My name is Kirill Kolodiaznyi and I'm a software developer from Ukraine, living in Kharkiv. You can find me on [Twitter][1],  or on [LinkedIn][3].
+My name is Kirill Kolodiaznyi and I'm a software developer. You can find me on [Twitter][1],  or on [LinkedIn][3].
 
 ## 🔬 Research & Intersest
 The research I’m working on now is the [implementation](https://github.com/Kolkir/rosbot) of a robotic platform based on the NVIDIA Jetson Nano 2Gb device with monocular SLAM navigation. The main aim of this work is to improve feature matching algorithms used for camera positioning in a SLAM pipeline. The recent experiments are about using deep learning for SLAM, especially using the [Local Feature Matching with Transformers](https://github.com/Kolkir/Coarse_LoFTR_TRT) for camera positioning.
